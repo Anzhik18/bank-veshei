@@ -1,0 +1,344 @@
+  @import url('https://fonts.googleapis.com/css2?family=Bellota+Text&family=Skranji&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital@1&family=Bellota+Text&family=Skranji&display=swap');
+
+body{
+    background: #ffffff;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Bellota', sans-serif;
+    text-decoration: none;
+}
+/*меню*/
+.main{
+    width: 1482px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin:0 auto;
+}
+.main_menu{
+     display: flex;
+     width: 1200px;
+     height: 85px;
+     justify-content: flex-start;
+   
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right:65px;
+}
+.logo img{
+    width: 160px;
+    height: 80px;
+}
+.menu_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+   
+}
+.menu_item a{
+    
+    text-decoration: none;
+    color: #333;
+     font-size:25px;
+     margin-right:65px;
+}
+.contener{
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.shap{
+    margin-top: 50px;
+    width: 1442px;
+    height: 559px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.line{
+    width: 1440px;
+    height: 1px;
+margin: 0 auto;
+    box-shadow:0 5px 5px  0px #959393;
+}
+.text_onas{
+    margin-top: 50px;
+    width: 512px;
+    height: 500px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+   }
+.text_onas h1{
+    margin: 0;
+    padding: 0;
+    font-size: 80px;
+    color: #EB0281;
+    font-family: Atkinson Hyperlegible;
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.text_onas h2{
+    margin: 0;
+    padding: 0;
+    font-size: 75px;
+    font-family: Atkinson Hyperlegible;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.text_onas p{
+    margin: 0;
+    padding: 0;
+    width: 386px;
+    height: 60px;
+    font-size: 16px;
+   font-family: Bellota Text;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.tb1{
+    border-radius: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 225px;
+    height: 40px;
+    background: #EB0281;
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+}
+.tb1 a{
+       color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+}
+      
+/***********Блок 2***************/
+
+   .block2{
+    margin:0 auto;
+ margin-top: 50px;
+    width: 1440px;
+    height: 580px;
+    display: flex;
+    justify-content: space-between
+   }
+   
+   .img_block2 img{
+    width: 670px;
+    height: 593px;
+    flex-shrink: 0;
+   
+   }
+   .text_block2{
+      width:512px;
+    height: 418px;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+   }
+.text_block2 h1{
+    color: #6C9C5E;
+text-align: center;
+font-family: Bellota Text;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  
+}
+.text_block2 p{
+    color: #000;
+    font-family: Bellota Text;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+padding: 0;   
+}
+
+/*****************БЛОК3******************************/
+.section3{
+    margin-top: 50px;
+     width: 1442px;
+    height: 580px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+   }
+   .img_adres{
+    width: 865px;
+    height: 426px;
+    flex-shrink: 0;
+       }
+   .img_adres img{
+    width: 865px;
+    height: 426px;
+    flex-shrink: 0;
+   
+   }
+   .text_adres{
+      width: 480px;
+    height: 445px;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+   }
+.text_adres h1{
+    color: #5799BD;
+text-align: center;
+font-family: Bellota Text;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  
+}
+.text_adres span{
+    color: #EB0281;
+font-family: Bellota Text;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 0;
+padding: 0;   
+}
+.text_adres p{
+    color: #000;
+    font-family: Bellota Text;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+padding: 0;   
+}
+/*****************БЛОК3******************************/
+.but{
+    margin-top: 50px;
+     width: 1440px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+   }
+   .but1{
+    width: 330px;
+    height: 372px;
+    border-radius: 15px;
+border: 1px solid rgba(87, 153, 189, 0.15);
+background: rgba(217, 217, 217, 0.00);
+box-shadow: 0px 8px 15px 0px #5799BD;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+   }
+   .but1_2{
+    margin: 0;
+    padding: 0;
+    width: 332px;
+    height: 88px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #5799BD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .but1_3{
+    margin:5px;
+   display: flex;
+width: 320px;
+height: 274px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+}
+   .but h1{
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+text-align: center;
+font-family: Bellota Text;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+   }
+   .but p{
+    margin: 0;
+    padding: 0;
+    color: #000;
+text-align: justify;
+font-family: Bellota Text;
+font-size: 23px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+   }
+
+/*********Подвал*******/
+footer{
+   padding-top: 80px;
+    width: 1440px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin:0 auto;
+}
+.main_foot{
+     display: flex;
+     width: 1440px;
+     height: 100px;
+     
+     justify-content: space-between
+   
+}
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #333;
+     font-size:25px;
+
+}
+.socials img{
+    width: 60px;
+    height: 60px;
+    margin-right:30px;
+  
+}
+.foot_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.foot_item a{
+    
+    text-decoration: none;
+    color: #333;
+     font-size:25px;
+     margin-right:30px;
+}
